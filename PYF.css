@@ -1,6 +1,13 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: black;
   font-family: "poppins", sans-serif;
+  background-image: url("f1-the-movie-8k-3840x2160-22458.jpg");
+  background-size: cover;
 }
 
 .hero {
@@ -40,14 +47,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(203, 201, 201);
 }
 
 .left-section {
-  background-color: black;
   display: flex;
   flex: 1;
   cursor: pointer;
@@ -55,7 +57,6 @@ body {
 }
 
 .middle-section {
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -63,7 +64,6 @@ body {
 }
 
 .right-section {
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
